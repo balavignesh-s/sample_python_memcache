@@ -1,9 +1,11 @@
 build_image: drydock/u14pytpls:prod
 language: python
 python:
- - 3.2
- - 3.3
- - 3.4
+ - 2.6
+ - 2.7
+ - 3.5
+ - "pypy"
+ - "pypy3"
 
 services: 
  - memcached 
